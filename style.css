@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+body {
+    font: Source Sans Pro;
+    background-color: #eee;
+    border: 2px solid #eee;
+    color:black;
+    margin-bottom: 10px;
+}
+H1 {
+    font-family: 'Abril Fatface';
+    margin: auto;
+    text-align: center;
+    font-size: 3.15em;
+}
+h2, h4 {
+    font: 'Roboto Slab';
+    font-weight: bolder;
+}
+title {
+    text-align: center;
+    margin: auto;
+}
+#newspaper-container {
+    background-color: black;
+    box-shadow: 1px 1px 5px #ddd;
+    width: 700px;
+    border-radius: 50%;
+    box-shadow: #ddd;
+    padding: 2rem;
+}
+p {
+    color: grey;
+}
+h5 {
+    text-align: justify;
+}
+
+nav {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    font: 'Abril Fatface';
+    text-decoration: none;
+    color: rgb(183, 182, 182);
+    padding: 5px 0;
+    position: sticky;
+    top: 0%;
+    background: white;
+}
+nav a {
+    color: rgb(183, 182, 182);
+
+}
+section {
+    display: inline-block;
+    max-width: 40%vw;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: left;
+    border: 1px solid lightgrey;
+    margin-bottom: 5px;
+}
+ul {
+    border-top: 1px solid (183, 182, 182);
+    border-bottom: 1px solid (183, 182, 182);
+    margin: 0;
+    text-align: center;
+}
+li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: .5em;
+}
+li a { 
+    text-decoration: none;
+    text-indent: none;
+    font-size: smaller;
+
+}
+.more-articles {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #eee; 
+}
+.more-articles img, .more-articles2 img {
+    width: 100%;
+}
+.more-articles section {
+    width: 40%;
+}
+.more-articles2 section {
+    width: 25%;                        
+}
+#cover {
+    width: 100%;
+}
+.date {
+    color:rgb(183, 182, 182);
+    font-size: .8em;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: lightgrey;
+    text-align: center;
+    max-width: 95%;
+    padding: 1.5em;
+ }
+ .footer a {
+    padding: 3em;
+     }
+     a :hover {
+         background-color: red;
+     }
